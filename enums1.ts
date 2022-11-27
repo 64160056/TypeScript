@@ -1,8 +1,8 @@
 enum CadinaiDirection {
-    Noeth = 1,
-    East,
-    South,
-    West
+    Noeth = "Noeth",
+    East = "East",
+    South = "South",
+    West = "West"
 }
 let currentDirection = CadinaiDirection.East;
 
